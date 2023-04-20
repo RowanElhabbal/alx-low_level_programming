@@ -1,6 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-int main(void){
- gcc -E $CFILE > c
-    return (0);
-}
+gcc $CFILE > c
