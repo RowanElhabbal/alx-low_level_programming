@@ -4,9 +4,9 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) 
+int main(void)
 {
-char car='a';
+char car = 'a';
 while (car <= 'z')
 {
 if (!(car == 'e' || car == 'q'))
