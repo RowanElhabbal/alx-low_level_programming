@@ -10,8 +10,8 @@ char car = 'a';
 while (car <= 'z')
 {
 putchar(car);
-putchar('n');
 car++;
 }
+putchar('n');
 return (0);
 }
