@@ -15,5 +15,6 @@ putchar(car);
 }
 car++;
 }
+putchar('\n');
 return (0);
 }
