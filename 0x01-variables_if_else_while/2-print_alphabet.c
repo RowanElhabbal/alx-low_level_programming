@@ -12,6 +12,6 @@ while (car <= 'z')
 putchar(car);
 car++;
 }
-putchar('n');
+putchar('\n');
 return (0);
 }
