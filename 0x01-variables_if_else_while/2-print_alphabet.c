@@ -10,6 +10,7 @@ char car = 'a';
 while (car <= 'z')
 {
 putchar(car);
+putchar('n');
 car++;
 }
 return (0);
