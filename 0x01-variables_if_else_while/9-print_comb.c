@@ -12,7 +12,7 @@ while (i < 10)
 if (i != 9)
 {
 putchar (i + 48);
-putchar (',');
+putchar (44);
 putchar (' ');
 i++;
 }
