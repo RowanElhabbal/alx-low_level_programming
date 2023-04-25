@@ -23,6 +23,5 @@ putchar (i + 48);
 i++;
 }
 }
-putchar ('\n');
 return (0);
 }
