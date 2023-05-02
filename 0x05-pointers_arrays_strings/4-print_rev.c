@@ -1,3 +1,4 @@
+#include "main.h"
 /**
   * print_rev - function that prints on reverse
   * @s: string
@@ -12,7 +13,7 @@ while (*s != '\0')
 length++;
 s++;
 }
-for (rev = length; o > 0; o--)
+for (rev = length; rev > 0; rev--)
 {
 _putchar(*s);
 s--;
